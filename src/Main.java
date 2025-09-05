@@ -15,7 +15,7 @@ public class Main {
             System.out.println("4. Divisão");
             System.out.println("5. Potenciação");
             System.out.println("6. Raiz quadrada");
-            System.out.println("7. Sair");
+            System.out.println("0. Sair");
             System.out.print("Escolha uma das opções acima: ");
             int op = in.nextInt();
 
@@ -85,7 +85,7 @@ public class Main {
                         System.out.printf("\n----------Resultado----------\n  Raiz quadrada de: %.2f = %.2f", calc.getNum1(), resultado);
                         break;
 
-                    case 7:
+                    case 0:
                         System.out.println("Obrigado por usar a calculadora!");
                         System.out.println("Sistema encerrado.");
                         in.close();
