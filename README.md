@@ -1,23 +1,25 @@
 # 🧮 Calculadora em Java
 
-Este é o meu primeiro projeto em **Java**, desenvolvido no **IntelliJ IDEA**, com foco em praticar **Programação Orientada a Objetos (POO)**.  
-A calculadora permite realizar operações matemáticas básicas a partir da entrada do usuário via console.
-
----
+### Este é um projeto em Java, desenvolvido no IntelliJ IDEA, com foco em praticar Programação Orientada a Objetos (POO).
+   
+### A calculadora permite realizar operações matemáticas básicas e algumas funções matemáticas adicionais a partir da entrada do usuário via console.
 
 ## 🚀 Funcionalidades
-- Soma ➕  
-- Subtração ➖  
-- Multiplicação ✖️  
-- Divisão ➗ (com tratamento de erro para divisão por zero)  
+- Soma ➕
 
----
+- Subtração ➖
+
+- Multiplicação ✖️
+
+- Divisão ➗ (com tratamento para divisão por zero)
+
+- Potenciação 🔼
+
+- Raiz quadrada ✔️ (com tratamento para números negativos)
 
 ## 🛠️ Tecnologias
 - [Java](https://www.oracle.com/java/)  
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/)  
-
----
 
 ## ▶️ Como executar
 
@@ -43,6 +45,8 @@ Digite o segundo número: 5
 2. Subtração
 3. Multiplicação
 4. Divisão
+5. Potenciação
+6. Raiz quadrada
 0. Sair
 
 Escolha uma das opções acima: 1
@@ -57,7 +61,7 @@ Escolha uma das opções acima: 1
 
 - Uso de construtores, getters e setters.
 
-- Estrutura de repetição com while.
+- Estruturas de repetição com while.
 
 - Estrutura de decisão com switch.
 
@@ -65,15 +69,17 @@ Escolha uma das opções acima: 1
 
 - Entrada de dados com Scanner.
 
+- Utilização da classe Math para operações matemáticas
+
 ## 📌 Próximos Passos
 
-- Adicionar potenciação (ex: 2 ^ 3 = 8).
+- Adicionar mais funções matemáticas (ex.: porcentagem, logaritmo).
 
-- Adicionar raiz quadrada.
+- Implementar histórico de operações.
 
 - Melhorar a interface do usuário (menu mais amigável).
 
--  Criar uma versão com interface gráfica (Java Swing/JavaFX).
+- Criar uma versão com interface gráfica (Java Swing/JavaFX).
 
 ## 📂 Estrutura do Projeto
  
@@ -88,4 +94,4 @@ Escolha uma das opções acima: 1
 └── .gitignore
 
 ## 👤 Autor - Kaléu Victor
-<img src="https://avatars.githubusercontent.com/Kaleu-Victor" width="200" height="200" align="center" alt="Kaléu Victor">
+<img src="https://avatars.githubusercontent.com/Kaleu-Victor" width="200" height="200" alt="Kaléu Victor">
