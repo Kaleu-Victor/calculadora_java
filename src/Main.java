@@ -19,7 +19,7 @@ public class Main {
             System.out.print("Escolha uma das opções acima: ");
             int op = in.nextInt();
 
-            double resultado = 0;
+            double resultado;
             try {
                 switch (op) {
                     case 1:
