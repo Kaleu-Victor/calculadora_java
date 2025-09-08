@@ -15,6 +15,7 @@ public class Main {
             System.out.println("4. Divisão");
             System.out.println("5. Potenciação");
             System.out.println("6. Raiz quadrada");
+            System.out.println("7. Porcentagem");
             System.out.println("0. Sair");
             System.out.print("Escolha uma das opções acima: ");
             int op = in.nextInt();
@@ -74,7 +75,7 @@ public class Main {
                         calc.setNum2(in.nextDouble());
 
                         resultado = calc.potenciacao();
-                        System.out.printf("\n----------Resultado----------\n  %.2f ^ %.2f = %.2f", calc.getNum1(), calc.getNum2(), resultado);
+                        System.out.printf("\n----------Resultado----------\n %.2f ^ %.2f = %.2f", calc.getNum1(), calc.getNum2(), resultado);
                         break;
 
                     case 6:
@@ -82,7 +83,18 @@ public class Main {
                         calc.setNum1(in.nextDouble());
 
                         resultado = calc.raiz();
-                        System.out.printf("\n----------Resultado----------\n  Raiz quadrada de: %.2f = %.2f", calc.getNum1(), resultado);
+                        System.out.printf("\n----------Resultado----------\n Raiz quadrada de: %.2f = %.2f", calc.getNum1(), resultado);
+                        break;
+
+                    case 7:
+                        System.out.print("Digite a parte da qual deseja realizar a porcentagem: ");
+                        calc.setNum1(in.nextDouble());
+
+                        System.out.print("Digite o todo(valor total) da qual você quer calcular a porcentagem: ");
+                        calc.setNum2(in.nextDouble());
+
+                        resultado = calc.porcentagem();
+                        System.out.printf("\n----------Resultado----------\n %.2f é %.2f%% de %.2f\n", calc.getNum1(), resultado, calc.getNum2());
                         break;
 
                     case 0:
