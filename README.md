@@ -17,6 +17,8 @@
 
 - Raiz quadrada ✔️ (com tratamento para números negativos)
 
+- Porcentagem % (com tratamento para valor total igual a zero)
+
 ## 🛠️ Tecnologias
 - [Java](https://www.oracle.com/java/)  
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/)  
@@ -73,13 +75,13 @@ Escolha uma das opções acima: 1
 
 ## 📌 Próximos Passos
 
-- Adicionar mais funções matemáticas (ex.: porcentagem, logaritmo).
+- Adicionar mais funções matemáticas (ex.: logaritmo).
 
 - Implementar histórico de operações.
 
 - Melhorar a interface do usuário (menu mais amigável).
 
-- Criar uma versão com interface gráfica (Java Swing/JavaFX).
+- Criar uma versão com interface gráfica (Java Swing).
 
 ## 📂 Estrutura do Projeto
  
